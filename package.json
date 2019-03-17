@@ -1,0 +1,11 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Making a simple chat bot to give motivational quotes and horoscope.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pralhad, Yogendra, Yogesh and Saquib",
+  "license": "MIT"
+}
