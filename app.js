@@ -40,8 +40,7 @@ if (todaysDate != data1[0]["Date"]){
             dic["sign"] = sign;
             dic["prediction"] = output;
             dic["Date"] = date.text();
-            data.push(dic)    
-            console.log(data);
+            data.push(dic)
             fs.writeFileSync("horoscopes.json", JSON.stringify(data, null, 2));
         });
     
